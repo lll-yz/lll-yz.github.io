@@ -6,7 +6,7 @@ date:      2020-10-12
 author:    lll-yz
 header-img: img/post-bg-2015.jpg
 catalog:    true
-tage:
+tags:
     - first create
 ---
 
