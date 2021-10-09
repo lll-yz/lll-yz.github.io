@@ -1,0 +1,29 @@
+---
+layout:    post
+title:     平常遇到的问题
+subtitle:  学习学习
+date:      2021-10-08
+author:    lll-yz
+header-img: img/post-bg-coffee.jpg
+catalog:    true
+tags:
+
+   - 乱七八糟
+---
+
+#### ping github.com 超时与访问浏览器访问github失败
+
+更新host文件。(在 C:\Windows\System32\drivers\etc 下)。
+
+去 [https://www.ipaddress.com/](https://www.ipaddress.com/)的**IP Address Lookup**查询 github.com和github.global.ssl.fastly.net，将host文件中的地址修改为查询到的。
+
+#### Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决
+
+如果不是网的问题的话，修改设置，在git bash here里执行：
+
+```
+git config --global http.sslVerify "false"
+```
+
+解除ssl验证。
+
